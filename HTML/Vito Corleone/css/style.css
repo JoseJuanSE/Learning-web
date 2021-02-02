@@ -1,0 +1,53 @@
+/* 
+
+Project Name: Vito Corleone
+Client: Vito Corleone
+Author: JoseJuanSE 
+Developed @ One Month in Mexico City 
+
+*/
+
+body {
+	background: url('/images/padrino.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#container{
+	background:rgba(0, 0, 0, 0.514);
+	width: 400px;
+	padding: 2px;
+	color:aliceblue;
+	border-radius: 80px;
+}
+h1{
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 60px;
+}
+p{
+	font-family: 'Slabo 27px', serif;
+	font-style:inherit;
+}
+a{
+	color: rgb(184, 18, 18); 
+	text-decoration: none;
+}
+h3{
+	padding: 12px;
+	background: rgb(119, 13, 13);
+	color:rgb(0, 0, 0);
+	border-radius: 10px;
+}
+h2.headerteskst{
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	font-weight: bold;
+	color: black;
+	padding: 5px;
+	border-radius: 90px;
+	background-color: white;
+}
