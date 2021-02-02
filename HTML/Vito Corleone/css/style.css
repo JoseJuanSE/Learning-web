@@ -20,9 +20,9 @@ body {
 #container{
 	background:rgba(0, 0, 0, 0.514);
 	width: 400px;
-	padding: 2px;
+
 	color:aliceblue;
-	border-radius: 80px;
+	border-radius: 40px;
 }
 h1{
 	font-family: 'Coda Caption', sans-serif;
