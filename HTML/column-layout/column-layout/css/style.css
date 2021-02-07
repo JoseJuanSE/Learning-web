@@ -16,6 +16,10 @@ Developed @ One Month in NYC
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
 }
+/*All what you add, add things inside, size is not modified with things like padding
+     with hack size= 700 and padding=50 -> size = 700
+     without hack size = 700 and padding=50 -> size = 750
+*/
 
 /* Clear Class */
 .clear {
