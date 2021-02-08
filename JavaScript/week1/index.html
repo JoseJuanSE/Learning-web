@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Oprah Likes You. And so do other people.</title>
+
+		<style>
+			
+			/* Basic CSS comment */	
+			body {
+				background: #BBB;
+				color: white;
+				width: 960px;
+				margin: 0 auto;
+			}
+
+			h1 {
+				font-size: 80px;
+				color: #333	;
+			}
+
+		</style>
+		<script>
+			// This is an event 
+			//alert("I'm annorying");
+
+			//This let us write in page
+			//document.write("HELLO!!!");
+
+			//write in html is posible
+			//document.write("<h1>HELLO!!!</h1>");
+			
+			//JS is auto var
+			var car = new Array("BMW","Nissan","MC");
+
+			function saluda(na,la){
+				if(na==="Chris"){
+					return "<h1>Hello "+na+" you won a "+ car[1]+"</h1>";
+				}
+				if(la!==undefined)
+					return "<h1>Hello "+na+" "+la+"!!!</h1>";
+				return "<h1>Hello "+na+"</h1>";
+			}
+			var name = prompt("Ingresa tu nombre");
+			var lastname = "sanchez";
+			document.write(saluda(name));
+
+		</script>
+	</head>
+	<body>
+		<!-- Hagamos esto en JS -->
+		<!-- <h1>Hello Jose!</h1> -->
+	</body>
+
+</html>
