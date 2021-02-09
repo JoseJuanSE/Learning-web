@@ -28,16 +28,16 @@
 				'Jose',
 				'Mattan',
 				'Chris',
-				'Lee'
+				'Lee',
+				'Sam',
+				'Cano',
 			];
-
 			var randomNumber = Math.floor(Math.random()*bars.length);
-			
-			var barname = bars[3];
-			var friendname = friends[randomNumber];
-			document.write(randomNumber+"<br>"); 
-			document.write("How about you go to <strong>" + barname + "</strong> with <strong>" + friendname + "</strong>?");
-		
+
+			function randomquestion(barname,friendname){
+				document.write("How about you go to <strong>" + barname + "</strong> with <strong>" + friendname + "</strong>?");
+			}
+			randomquestion(bars[randomNumber],friends[randomNumber]);
 		</script>
 	</head>
 	<body>
