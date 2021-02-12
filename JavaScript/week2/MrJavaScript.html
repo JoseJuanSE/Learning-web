@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1 id="mrjs">I'm Mr. JavaScript</h1>
+    <a href="#" id="bt">Hey JavaScript, how ya feeling?</a>
+    <script>
+        var bt = document.getElementById("bt");
+        bt.addEventListener('click',function(){
+            var name = document.getElementById("mrjs");
+            name.innerHTML = "Not good bah!";
+            name.style="color: red";
+        });
+    </script>
+</body>
+</html>

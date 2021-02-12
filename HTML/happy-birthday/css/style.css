@@ -4,8 +4,13 @@
 
 
 body {
-  background: #DDD;
+  background: url("/images/space-background.png");
   font-family: 'Open Sans', arial, sans-serif;
+
+  /*Full Page Background Receipe*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 * {
@@ -21,9 +26,9 @@ body {
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.75;
-  margin-bottom: 28px;
+  margin-bottom: 1.75rem;
 }
 
 strong {
@@ -43,16 +48,15 @@ h1, h2 {
   font-family: 'Lobster', cursive;
   color: #e22f8f;
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
-h1 {
-
-  font-size: 16px;
+h1{
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 /*
@@ -60,21 +64,36 @@ h2 {
 */
 
 .container {
-  width: 630px;
-  margin: 100px auto;
+  width: 39.38rem;
+  margin: 6.25rem auto;
   background: #DDD;
-  border-radius: 20px 20px 0 0;
+  border-radius: 1.25rem 1.25rem 0 0;
+}
+.hero{
+  line-height: 0;
 }
 .hero img{
   width: 100%;
-  border-radius: 20px 20px 0 0;
+  border-radius: 1.25rem 1.25rem 0 0;
 }
 /*
  * Aside Styles
 */
 aside.left{
   float: left;
+  padding: 1.25rem;
 }
 aside.right{
   float: right;
+  padding: 0.3125rem;
+}
+.contact{
+  padding: 0.625rem;
+}
+.intro{
+  padding: 0.625rem;
+  background: white;
+}
+#map{
+  width: 100%;
 }

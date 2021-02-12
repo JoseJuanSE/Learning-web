@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mr. JavaScript</title>
+</head>
+<body>
+    <h1>I'm JavaScript</h1>
+    <a href="#" class="reset">reset</a>
+    <a href="#" id="bt">Hey JavaScript, how ya feeling?</a>
+    <script>
+        var a = document.querySelector("#bt");
+        // you can take types or classes
+        a.addEventListener('click',function(){
+            var h1 = document.querySelector("h1");
+            h1.innerHTML = "I'm alive!";
+            a.innerHTML = "Google!";
+            a.href ="https://google.com.mx";
+            a.target="_blank";
+            a.style =  "text-decoration: none;color: green;"
+        })
+        var r = document.querySelector(".reset");
+        r.addEventListener('click',function(){
+            var h1 = document.querySelector("h1");
+            h1.innerHTML = "I'm JavaScript";
+
+            var but = document.getElementById("bt");
+            but.innerHTML = "Hey JavaScript, how ya feeling?";
+            but.style = "color: -webkit-link;cursor: pointer;text-decoration: underline;"
+        })
+        // document.getElementsByClassName
+        // gives us all the elements of that type
+        // like in an array, which is so useful
+        // lets do something with this
+    </script>
+    <h1 class="nice">Hola</h1>
+    <h1 class="nice">Hola</h1>
+    <h1 class="nice">Hola</h1>
+    <h1 class="nice">Hola</h1>
+    <script>
+        var ar = document.getElementsByClassName('nice');
+        arr = Array.prototype.slice.call(ar);
+        arr.forEach(element => {
+            element.innerHTML="adios";
+            element.style="color: red";
+        });
+        function sum(a,b){
+            return a+b;
+        }
+        document.write(sum(5,8));
+        console.log(sum(5,8));
+    </script>
+
+</body> 
+</body>
+</html>
