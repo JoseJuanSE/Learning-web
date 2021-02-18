@@ -1,0 +1,199 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+  margin: 0;
+  background: rgb(245, 245, 245);
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 0.875rem;
+  color: rgb(86, 90, 92);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(255, 89, 95);
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 600;
+}
+
+
+/*
+ * Button styles
+*/
+.booking{
+  height: 9.25rem;
+  width: 17.125rem;
+  float: left;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.button {
+  background: rgb(255, 89, 95);
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 4rem;
+  border-bottom: 0.0625rem solid rgb(227, 25, 29);
+  border-radius: 0.125rem;
+  width: 95%;
+  margin: 0 auto;
+}
+/* 
+  Button styles end
+*/
+.logo{
+  width: 7.5rem;
+  float: left;
+  border-style: solid;
+  border-color: #dce0e0;
+  border-width: 0 1px 0 0;
+}
+#logosec{
+  height: 3.75rem;
+}
+.dog-hero{
+  width:100%;
+  line-height: 0;
+}
+.profile{
+  height: 12.5rem;
+  border-style: solid;
+  background: rgb(255,255,255);
+  border-color: #DCE0E0;
+  border-width: 0 0 1px 0;
+}
+/* marco imagen */
+.owner-details{
+  width: 6.25rem;
+  height: 9.375rem;
+  padding: 0.3125rem;
+  margin: 1.5625rem 0px 1.5625rem 20%;
+  float: left;
+}
+.perfilimg{
+  border-radius: 50%;
+}
+/* text */
+.OS{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: regular;
+  text-align: center;
+  color: #909597;
+  margin-top: 0.5rem;
+}
+.pet-details{
+  width: 25rem;
+  height: 9.25rem;
+  padding: 0.3125rem;
+  float: left;
+  margin-top:1.5625rem;
+  margin-left:2.1875rem;
+  border-style: solid;
+  border-color: #dce0e0;
+  border-width: 0 0.0625rem 0 0;
+}
+.OST{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.375rem;
+  font-weight: regular;
+  color: #666A6C;
+}
+
+.money{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.375rem;
+  font-weight: regular;
+  color: #666A6C;
+  float: left;
+  margin-bottom: 0.9375rem;
+  margin-left: 5.625rem;
+}
+.per{
+  margin-left: 0.625rem;
+  margin-top: 0.5rem;
+  float: left;
+}
+/* 
+More style
+*/
+.about{
+  width: 45%;
+  margin-left: 18%;
+  margin-right: 37%;
+  text-align: center;
+  background: rgb(245,245,245);
+}
+.Tit{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #565A5C;
+  text-align: 30%;
+  margin-top: 3.125rem;
+}
+.pa{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: regular;
+  font-size: 0.8125rem;
+  line-height: 1.375rem;
+  color: #565a5c;
+  text-align: left;
+  margin-top: 1.875rem;
+}
+/* 
+More style -> end
+*/
+
+/* 
+care styles
+*/
+.care{
+  width: 45%;
+  margin-left: 18%;
+  margin-right: 37%;
+  margin-bottom: 100px;
+  text-align: center;
+  background: rgb(245,245,245);
+}
+.care p{
+  margin-top: 0.5rem;
+}
+.first{
+  text-align: left;
+  float:left;
+  margin-right: 15%;
+}
+/* 
+care styles end
+*/
+
+/* 
+games styles
+*/
+.games{
+  width: 45%;
+  margin-left: 18%;
+  margin-right: 37%;
+  text-align: center;
+  background: rgb(245,245,245);
+}
+/* 
+games styles end
+*/
