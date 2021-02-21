@@ -133,7 +133,7 @@ strong {
 /* 
 More style
 */
-.about{
+.abouts{
   width: 45%;
   margin-left: 18%;
   margin-right: 37%;
@@ -197,3 +197,6 @@ games styles
 /* 
 games styles end
 */
+@media only screen and (max-width: 1060px){
+
+}
