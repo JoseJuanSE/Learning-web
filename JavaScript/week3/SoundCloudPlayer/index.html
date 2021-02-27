@@ -16,6 +16,10 @@
     </div>
     <div class="col-right">
         <div class="main">
+            <div class="clearbt">
+                <a href="#" class="js-clear">Clear</a>
+            </div>
+            
             <div class="ui massive icon input">
                 <input type="text" placeholder="Search for a song or artist..." class="js-search input-search">
                 <i class="search icon js-submit"></i>
@@ -24,7 +28,7 @@
             <div class="search-results js-search-results ui cards">
                 
                 <!-- BEGIN CARD -->
-                <div class="card">
+                <div class="card" style="display:none;">
                     <div class="image">
                         <img class="image_img" src="http://www.placekitten.com/290/290">
                     </div>
@@ -44,7 +48,7 @@
         </div>
     </div>
 </div>
-
+<script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
 <script src='javascript/semantic.min.js'></script>
 <script src="javascript/main.js"></script>
 </body>
