@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Arrays</title>
+    </head>
+    <body>
+
+        <script type="text/javascript">
+            //push
+            var sports = ['soccer', 'baseball']
+            var total = sports.push('football', 'swimming')
+            function print(){
+                console.log(sports);
+                console.log(total);    
+            }
+            //pop
+            print();
+            console.log("lets do pop");
+            var popped = sports.pop();
+            total = sports.length;
+            print();
+            console.log("element popped: "+popped);
+            //shift -> pop but first
+            var shifted = sports.shift();
+            total = sports.length;
+            print();
+            console.log("element shifted "+shifted);
+            //reverse
+            sports.reverse();
+            console.log(sports);
+        </script>
+    </body>
+</html>

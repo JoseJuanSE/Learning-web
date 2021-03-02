@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Map method</title>
+        <style type="text/css">
+            body{
+                background: #87CEFA;
+            }
+        </style>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var cities = ["NYC","Paris","Tokyo"];
+            cities.forEach(function(city){
+                console.log(city);
+            })
+
+            people = [{name: "Chris", location:"NYC"},{name: "Jose", location:"Mexico City"}]
+            console.log(people);
+            people.forEach(function(person){
+                console.log(person.name);
+                console.log(person.location);
+            })
+            //example with numbers
+            var numbers = [1,4,9];
+            // map pass for all the numbers
+            var doubles = numbers.map(function(num){
+                return num*2;
+            })
+            doubles.forEach(function(double){
+                console.log(double);
+            })
+            //other example of map 
+            var gaboNames = ["pedro","jose","jorge","maria"];
+            var gaboNameSwitheLastName = gaboNames.map(function(name){
+                var fle = name[0].toUpperCase();
+                return fle+name.substring(1)+" Buendia";
+            })
+            console.log(gaboNameSwitheLastName);
+            
+        </script>
+    </body>
+</html>

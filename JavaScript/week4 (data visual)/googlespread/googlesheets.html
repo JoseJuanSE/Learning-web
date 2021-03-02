@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabletop.js</title>
+    <style type="text/css">
+        body {
+            background: pink;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <script src="/googlespread/js/tabletop.js"></script>
+    
+    <script src="/googlespread/js/main.js"></script>
+    <script type='text/javascript'>
+        var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1_RUhAJSMmOy_sHNJfQcZyvvrdHeQU7x5Lsqq6mTV1Bw/edit?usp=sharing';
+
+        function init() {
+            Tabletop.init({
+                key: publicSpreadsheetUrl,
+                callback: showInfo,
+                simpleSheet: true
+            })
+        }
+
+        function showInfo(data, tabletop) {
+            alert('Successfully processed!')
+            console.log(data);
+        }
+
+        window.addEventListener('DOMContentLoaded', init)
+    </script>
+</body>
+
+</html>
