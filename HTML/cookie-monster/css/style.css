@@ -19,10 +19,12 @@ body {
 }
 
 #container{
-	background: black;
+	background: rgba(0, 0, 0, 0.767);
 	width: 424px;
 	color:white;
 	padding: 15px;
+	border-radius: 30px;
+	margin-top: 15px;
 }
 h1{
 	font-size: 80px;
