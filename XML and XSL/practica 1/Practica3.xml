@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="estilo.xsl"?>
+
+
+<farmacia>    
+    <medicamento categoria="Capsula">
+        <nombre>Fenofibrato</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido >30 capsulas</contenido>
+        <precio>308.00</precio>
+    </medicamento>
+    <medicamento categoria="Capsula">
+        <nombre>Ibuprofeno</nombre>
+        <via_administracion >Oral</via_administracion>
+        <contenido>10 capsulas</contenido>
+        <precio>27.00</precio>
+    </medicamento>
+    <medicamento categoria="Capsula">
+        <nombre>Celecoxib</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido>30 Capsulas</contenido>
+        <precio>660.00</precio>
+    </medicamento>
+    <medicamento categoria="Capsula">
+        <nombre>Doxicilina</nombre>
+        <via_administracion >Oral</via_administracion>
+        <contenido>10 capsulas</contenido>
+        <precio>86.00</precio>
+    </medicamento>
+    <medicamento categoria="Comprimido">
+        <nombre>Ambroxol</nombre>
+        <via_administracion >Oral</via_administracion>
+        <contenido>20 comprimidos</contenido>
+        <precio>215.00</precio>
+    </medicamento>
+    <medicamento categoria="Comprimido">
+        <nombre>Valaciclovir</nombre>
+        <via_administracion >Oral</via_administracion>
+        <contenido>20 comprimidos</contenido>
+        <precio>391.00</precio>
+    </medicamento>
+    <medicamento categoria="Comprimido">
+        <nombre>Secnidazol</nombre>
+        <via_administracion >Oral</via_administracion>
+        <contenido>08 comprimidos</contenido>
+        <precio>132.00</precio>
+    </medicamento>
+    <medicamento categoria="Comprimido">
+        <nombre>Losartan</nombre>
+        <via_administracion >Oral</via_administracion>
+        <contenido>15 comprimidos</contenido>
+        <precio>86.00</precio>
+    </medicamento>
+    <medicamento categoria="Jarabe">
+        <nombre>Histiacil</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido>60 ml</contenido>
+        <precio>136.00</precio>
+    </medicamento>
+    <medicamento categoria="Jarabe">
+        <nombre>Clorfenamina</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido>50 ml</contenido>
+        <precio>30.00</precio>
+    </medicamento>
+    <medicamento categoria="Jarabe">
+        <nombre>Oxeladina,Ambroxol</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido>120 ml</contenido>
+        <precio>56.00</precio>
+    </medicamento>
+    <medicamento categoria="Jarabe">
+        <nombre>Dropropizina</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido>300 ml</contenido>
+        <precio>61.00</precio>
+    </medicamento>
+    
+</farmacia>
